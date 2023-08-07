@@ -1,0 +1,21 @@
+.todo-item {
+    border: solid 1px black;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.todo-item:hover {
+    background-color: aqua;
+}
+
+.todo-item > p {
+    margin: 0px;
+}
+
+.todo-item > input {
+    width: 20px;
+    height: 20px;
+}
+
